@@ -32,7 +32,6 @@
             </el-menu-item-group>
           </el-submenu>
         </div>
-
       </el-menu>
     </el-aside>
     <el-container>
