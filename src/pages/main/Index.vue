@@ -3,7 +3,7 @@
     <div class="top_sec">
       <div class="card">
         <div class="leftcard">
-          <i class="el-icon-document-checked" style="color: #1296db;"></i>
+          <i class="icon iconfont icon-dingdan" style="color: #1296db;"></i>
         </div>
         <div class="rightcard">
           <div>总订单</div>
@@ -12,7 +12,7 @@
       </div>
       <div class="card">
         <div class="leftcard">
-          <i class="el-icon-box" style="color: #d4237a;"></i>
+          <i class="icon iconfont icon-qian" style="color: #d4237a;"></i>
         </div>
         <div class="rightcard">
           <div>总销售额</div>
@@ -21,7 +21,7 @@
       </div>
       <div class="card">
         <div class="leftcard">
-          <i class="el-icon-s-order" style="color: #1296db;"></i>
+          <i class="icon iconfont icon-dingdan" style="color: #1296db;"></i>
         </div>
         <div class="rightcard">
           <div>今日订单数</div>
@@ -30,7 +30,7 @@
       </div>
       <div class="card">
         <div class="leftcard">
-          <i class="el-icon-circle-check" style="color: #1afa29;"></i>
+          <i class="icon iconfont icon-qudaoshangxitongbeifen" style="color: #d4237a;"></i>
         </div>
         <div class="rightcard">
           <div>今日销售额</div>

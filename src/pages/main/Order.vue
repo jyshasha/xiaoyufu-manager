@@ -185,6 +185,7 @@ export default {
     },
     // 点击查询
     clickQuery(){
+      this.currentPage=1
       // 判定用户选择了那些参数
       let paramsex={}
       if(this.orderNo!="")paramsex.orderNo=this.orderNo

@@ -1,18 +1,16 @@
 <template>
   <el-container>
-    <el-aside width="200px">
+    <el-aside width="240px">
       <div class="title">
-        <span>
-          <i class="el-icon-dish"></i>
-        </span>
-        <b>外卖商家中心</b>
+        <img src="@/assets/imgs/logo.jpg">
+        <b>屋企港式茶餐厅</b>
       </div>
       <el-menu
         :default-active="curhash"
         class="el-menu-vertical-demo"
-        background-color="#304156"
+        background-color="#106d8a"
         text-color="#fff"
-        active-text-color="#3884D1"
+        active-text-color="#FFFF33"
         router
         unique-opened
       >
@@ -72,13 +70,13 @@ export default {
         },
         {
           url: "/main/order",
-          icon: "el-icon-document",
+          icon: "icon iconfont icon-dingdan2",
           name: "订单管理",
           roles: ["super", "normal"]
         },
         {
           url: "/main/items",
-          icon: "el-icon-location",
+          icon: "icon iconfont icon-shangpinguanli",
           name: "商品管理",
           children: [
             {
@@ -98,13 +96,13 @@ export default {
         },
         {
           url: "/main/shop",
-          icon: "el-icon-setting",
+          icon: "icon iconfont icon-dianpuguanli",
           name: "店铺管理",
           roles: ["super"]
         },
         {
           url: "/main/account",
-          icon: "el-icon-setting",
+          icon: "icon iconfont icon-zhanghao",
           name: "账号管理",
           children: [
             {
@@ -124,7 +122,7 @@ export default {
         },
         {
           url: "/main/sales",
-          icon: "el-icon-setting",
+          icon: "icon iconfont icon-tongji",
           name: "销售统计",
           children: [
             {
@@ -205,12 +203,11 @@ export default {
     line-height: 80px;
     color: #fff;
     text-align: center;
-    span {
-      display: inline-block;
-      width: 40px;
-      line-height: 40px;
+    img{
+      width: 50px;
+      height: 50px;
+      vertical-align: middle;
       border-radius: 50%;
-      background-color: #1296db;
       margin-right: 10px;
     }
   }
@@ -238,7 +235,7 @@ export default {
 }
 
 .el-aside {
-  background-color: #304156;
+  background-color: #106d8a;
 }
 
 .el-main {
@@ -247,5 +244,9 @@ export default {
 
 .el-menu {
   border: 0;
+  i{
+    font-size: 18px;
+    padding: 0 10px;
+  }
 }
 </style>

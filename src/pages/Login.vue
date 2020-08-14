@@ -1,7 +1,7 @@
 <template>
   <div id="box">
     <div class="login_div">
-      <h3>系统登录</h3>
+      <h3>欢迎登录屋企系统</h3>
       <p>
         <el-input placeholder="请输入账号" prefix-icon="el-icon-user-solid" v-model="acc" clearable></el-input>
       </p>
@@ -45,11 +45,10 @@ export default {
 </script>
 
 <style lang="less">
-@base: #2d3a4b;
 #box {
   width: 100%;
   height: 100%;
-  background-color: @base;
+  background: linear-gradient(45deg,#000,#106d8a);
   display: flex;
   justify-content: center;
   align-items: center;
